@@ -94,7 +94,7 @@ public class LinearRegression {
             yhp[i] = xp[i]*qp + rp;
         }
 
-=        for (int i = 0; i < x.length; i++) {
+        for (int i = 0; i < x.length; i++) {
             SSEp += Math.pow(y[i] - yph[i], 2); // incorrect ?
         }
 
